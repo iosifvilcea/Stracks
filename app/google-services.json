@@ -1,0 +1,61 @@
+{
+  "project_info": {
+    "project_number": "573549701344",
+    "project_id": "blankthings.strack-1322"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:573549701344:android:00f89a6b2c9397fe",
+        "android_client_info": {
+          "package_name": "blankthings.strack"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCb8W_sm6A42_I-EwrjG4UITRixpxKsKcQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:573549701344:android:d4b0685710d7727c",
+        "android_client_info": {
+          "package_name": "blankthings.strack.free"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCb8W_sm6A42_I-EwrjG4UITRixpxKsKcQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
