@@ -30,7 +30,7 @@ public class CardListView extends FrameLayout implements OnItemClickListener {
     //
     protected void setupViews() {
         final LayoutInflater inflater =  LayoutInflater.from(getContext());
-        final View view = inflater.inflate(R.layout.playlist_view_layout, this, true);
+        final View view = inflater.inflate(R.layout.playlist_view, this, true);
 
         final RecyclerView recyclerView = (RecyclerView) view.findViewById(R.id.playlistRecyclerView);
         adapter = new CardListAdapter();

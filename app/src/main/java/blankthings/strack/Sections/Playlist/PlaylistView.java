@@ -24,7 +24,7 @@ public class PlaylistView extends FrameLayout implements OnItemClickListener {
 
     public PlaylistView(Context context) {
         super(context);
-        inflate(context, R.layout.playlist_view_layout, this);
+        inflate(context, R.layout.playlist_view, this);
         setupViews();
     }
 

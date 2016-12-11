@@ -2,7 +2,6 @@ package blankthings.strack.Sections.Playlist;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -30,7 +29,6 @@ public class PlaylistFragment extends BaseFragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        Log.e(TAG, "PlaylistFragment onCreateView.");
         cardListView = new CardListView(getContext());
         return cardListView;
     }
@@ -38,7 +36,6 @@ public class PlaylistFragment extends BaseFragment {
 
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
-        Log.e(TAG, "PlaylistFragment setupViews.");
         super.onViewCreated(view, savedInstanceState);
         final ArrayList<Song> songs = generateDummyData(10);
         cardListView.setCardList(songs);

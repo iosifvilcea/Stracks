@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
     public void onBackPressed() {
         /** Notify Fragments onBackPressed() */
         final List<Fragment> fragmentList = getSupportFragmentManager().getFragments();
-        for (Fragment fragment : fragmentList) {
+        for (final Fragment fragment : fragmentList) {
             if (fragment instanceof OnBackPressedListener) {
                 ((OnBackPressedListener) fragment).onBackPressed();
             }

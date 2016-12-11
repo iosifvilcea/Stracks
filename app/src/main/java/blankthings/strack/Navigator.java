@@ -30,7 +30,7 @@ public enum Navigator {
      * @param mainActivity - current (and only) activity.
      */
     public void initializeNavigator(final MainActivity mainActivity) {
-        if (mainActivityRef == null) {
+        if (mainActivity == null) {
             throw new NullPointerException("MainActivity cannot be null.");
         }
 

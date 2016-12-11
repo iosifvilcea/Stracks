@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="remaining">Remaining:</string>
+    <string name="paymentSymbol">- $</string>
+
+    <style name="PaymentText">
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textSize">30sp</item>
+    </style>
+
+</resources>
