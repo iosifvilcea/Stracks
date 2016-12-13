@@ -1,4 +1,4 @@
-package blankthings.strack.Sections.Home;
+package blankthings.strack.sections.Home;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -8,7 +8,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 
 import blankthings.strack.R;
-import blankthings.strack.Sections.Base.BaseFragment;
+import blankthings.strack.sections.Base.BaseFragment;
 
 /**
  * Created by iosifvilcea on 6/18/16.

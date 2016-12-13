@@ -1,4 +1,4 @@
-package blankthings.strack.Sections.Playlist;
+package blankthings.strack.sections.Playlist;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -8,7 +8,7 @@ import android.view.ViewGroup;
 
 import java.util.ArrayList;
 
-import blankthings.strack.Sections.Base.BaseFragment;
+import blankthings.strack.sections.Base.BaseFragment;
 
 /**
  * PlaylistFragment

@@ -1,4 +1,4 @@
-package blankthings.strack.Sections.Base;
+package blankthings.strack.sections.Base;
 
 import blankthings.strack.Navigator;
 

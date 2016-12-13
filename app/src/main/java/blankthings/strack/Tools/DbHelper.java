@@ -1,4 +1,4 @@
-package blankthings.strack.Tools;
+package blankthings.strack.tools;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;

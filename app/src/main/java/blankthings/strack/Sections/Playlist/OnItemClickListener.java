@@ -1,4 +1,4 @@
-package blankthings.strack.Sections.Playlist;
+package blankthings.strack.sections.Playlist;
 
 import android.view.View;
 

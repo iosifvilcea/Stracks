@@ -1,4 +1,4 @@
-package blankthings.strack.Sections.Playlist;
+package blankthings.strack.sections.Playlist;
 
 /**
  * Created by iosifvilcea on 5/17/16.

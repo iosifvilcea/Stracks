@@ -1,4 +1,4 @@
-package blankthings.strack.Sections.SavingsCalendar;
+package blankthings.strack.sections.SavingsCalendar;
 
 /**
  * Created by iosifvilcea on 12/10/16.

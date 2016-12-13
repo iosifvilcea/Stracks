@@ -1,4 +1,4 @@
-package blankthings.strack.Sections.Search;
+package blankthings.strack.sections.Search;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;

@@ -1,4 +1,4 @@
-package blankthings.strack.Sections.SavingsCalendar;
+package blankthings.strack.sections.SavingsCalendar;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -9,7 +9,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import blankthings.strack.R;
-import blankthings.strack.Sections.Base.BaseFragment;
+import blankthings.strack.sections.Base.BaseFragment;
 
 /**
  * Created by iosifvilcea on 12/4/16.

@@ -1,4 +1,4 @@
-package blankthings.strack.Api;
+package blankthings.strack.api;
 
 import android.support.annotation.Nullable;
 import android.text.TextUtils;

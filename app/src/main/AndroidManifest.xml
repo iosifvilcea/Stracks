@@ -44,31 +44,20 @@
         </activity>
 
 
-        <!-- RECEIVERS -->
-        <receiver
-            android:name="com.google.android.gms.gcm.GcmReceiver"
-            android:exported="true"
-            android:permission="com.google.android.c2dm.permission.SEND" >
-            <intent-filter>
-                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-                <category android:name="com.example.gcm" />
-            </intent-filter>
-        </receiver>
-
-
-        <!-- SERVICES -->
+       <!-- Firebase Cloud Messaging -->
+        <!--  Allows receiving messages in foreground, data payload, send upstream messages, etc. -->
         <service
-            android:name="blankthings.strack.Services.AppGcmListenerService"
-            android:exported="false" >
+            android:name=".fcmservices.AppFirebaseMessagingService">
             <intent-filter>
-                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
             </intent-filter>
         </service>
+
+        <!-- Handles creation, rotation and updating registration tokens. -->
         <service
-            android:name="blankthings.strack.Services.AppInstanceIDListenerService"
-            android:exported="false">
+            android:name=".fcmservices.AppFirebaseInstanceIDService">
             <intent-filter>
-                <action android:name="com.google.android.gms.iid.InstanceID" />
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
             </intent-filter>
         </service>
 

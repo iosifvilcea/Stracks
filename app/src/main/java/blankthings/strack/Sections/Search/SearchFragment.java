@@ -1,4 +1,4 @@
-package blankthings.strack.Sections.Search;
+package blankthings.strack.sections.Search;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -14,7 +14,7 @@ import android.view.ViewGroup;
 
 import blankthings.strack.MainActivity;
 import blankthings.strack.R;
-import blankthings.strack.Sections.Base.BaseFragment;
+import blankthings.strack.sections.Base.BaseFragment;
 
 /**
  * SearchFragment

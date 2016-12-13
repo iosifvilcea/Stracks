@@ -6,9 +6,9 @@ import android.view.View;
 
 import java.lang.ref.WeakReference;
 
-import blankthings.strack.Sections.Playlist.PlaylistFragment;
-import blankthings.strack.Sections.SavingsCalendar.SavingsCalFragment;
-import blankthings.strack.Sections.Search.SearchFragment;
+import blankthings.strack.sections.Playlist.PlaylistFragment;
+import blankthings.strack.sections.SavingsCalendar.SavingsCalFragment;
+import blankthings.strack.sections.Search.SearchFragment;
 
 /**
  * Navigator

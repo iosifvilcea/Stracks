@@ -1,4 +1,4 @@
-package blankthings.strack.Sections.Playlist;
+package blankthings.strack.sections.Playlist;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;

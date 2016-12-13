@@ -1,4 +1,4 @@
-package blankthings.strack.Api;
+package blankthings.strack.api;
 
 /**
  * Created by iosifvilcea on 6/22/16.

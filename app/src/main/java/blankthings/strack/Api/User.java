@@ -1,4 +1,4 @@
-package blankthings.strack.Api;
+package blankthings.strack.api;
 
 import com.google.gson.annotations.SerializedName;
 

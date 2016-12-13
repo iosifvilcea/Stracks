@@ -54,8 +54,8 @@ dependencies {
     compile 'com.android.support:design:23.4.0'
     compile 'com.android.support:recyclerview-v7:23.4.0'
 
-    /** Google Play Services */
-    compile "com.google.android.gms:play-services-gcm:9.0.0"
+    /** Firebase Cloud Messaging */
+    compile 'com.google.firebase:firebase-messaging:9.0.0'
 
     /** Networking */
     compile 'com.squareup.retrofit2:retrofit:2.1.0'
